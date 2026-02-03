@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 const formula1 = CustomFont({
-  src: "../fonts/formula1.woff2",
+  src: "../fonts/Formula1.woff2",
   variable: "--font-formula1",
 });
 
