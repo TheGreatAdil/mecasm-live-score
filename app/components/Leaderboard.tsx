@@ -21,22 +21,22 @@ type Team = {
 const dummydata = [
   {
     id: 1,
-    name: "SCUDERIA FERRARI",
+    name: "Scuderia Ferrari",
     points: 0,
   },
   {
     id: 2,
-    name: "ASTON MARTING",
+    name: "Aston Martin",
     points: 0,
   },
   {
     id: 3,
-    name: "MCLAREN",
+    name: "McLaren",
     points: 0,
   },
   {
     id: 4,
-    name: "REDBULL RACING",
+    name: "Redbull Racing",
     points: 0,
   },
 ];
@@ -145,7 +145,7 @@ export default function Leaderboard() {
             />
           </div>
 
-          <div className="absolute right-2 bottom-[15%] w-40 md:w-64">
+          <div className="absolute right-2 bottom-[15%] w-46 md:w-64">
             <Image
               src={
                 team.id === 1
