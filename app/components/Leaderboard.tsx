@@ -107,7 +107,7 @@ export default function Leaderboard() {
         <div
           key={team.id}
           className={
-            "relative w-full p-4 shadow-md rounded-4xl flex justify-between items-center border border-white bg-linear-110 from-black overflow-hidden " +
+            "relative w-full p-4 shadow-md rounded-2xl flex justify-between items-center border border-white bg-linear-110 from-black overflow-hidden " +
             (team.id === 1
               ? "to-[#e62424] "
               : team.id === 2
@@ -130,7 +130,7 @@ export default function Leaderboard() {
             </div>
           </div>
 
-          <div className="absolute right-5 size-24 md:size-28">
+          <div className="absolute right-2 size-26 md:size-28">
             <Image
               src={
                 team.id === 1
@@ -145,7 +145,7 @@ export default function Leaderboard() {
             />
           </div>
 
-          <div className="absolute right-5 bottom-[15%] w-36 md:w-64">
+          <div className="absolute right-2 bottom-[15%] w-40 md:w-64">
             <Image
               src={
                 team.id === 1
