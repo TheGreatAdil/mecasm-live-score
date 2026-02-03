@@ -5,18 +5,18 @@ import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["300", "700", "800"],
+  weight: ["300"],
   variable: "--font-poppins",
 });
 
-const formula1 = CustomFont({
-  src: "../fonts/Formula1.woff2",
-  variable: "--font-formula1",
+const formula1_black = CustomFont({
+  src: "../fonts/Formula1-Black.woff2",
+  variable: "--font-formula-black",
 });
 
-const fieldgothic = CustomFont({
-  src: "../fonts/Field Gothic.woff2",
-  variable: "--font-field",
+const formula1_bold = CustomFont({
+  src: "../fonts/Formula1-Bold.ttf",
+  variable: "--font-formula-bold",
 });
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${formula1.variable} ${fieldgothic.variable} antialiased`}
+        className={`${poppins.variable} ${formula1_black.variable} ${formula1_bold.variable} antialiased`}
       >
         {children}
       </body>
