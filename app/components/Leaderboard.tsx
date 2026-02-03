@@ -22,22 +22,22 @@ const dummydata = [
   {
     id: 1,
     name: "SCUDERIA FERRARI",
-    points: 15,
+    points: 0,
   },
   {
     id: 2,
     name: "ASTON MARTING",
-    points: 36,
+    points: 0,
   },
   {
     id: 3,
     name: "MCLAREN",
-    points: 31,
+    points: 0,
   },
   {
     id: 4,
     name: "REDBULL RACING",
-    points: 56,
+    points: 0,
   },
 ];
 

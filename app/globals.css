@@ -14,8 +14,12 @@
   --font-field: var(--font-field);
 }
 
+html {
+  background: black;
+}
+
 body {
-  background: radial-gradient(circle at top, #262859 0%, #000 70%) no-repeat
+  background: radial-gradient(circle at top, #262859 0%, #000 50%) no-repeat
     center / 100% 100%;
 
   color: var(--foreground);
