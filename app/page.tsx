@@ -17,7 +17,7 @@ export default function Page() {
           className="w-48 md:w-64"
         />
       </div>
-      <h1 className="text-5xl md:text-8xl font-formula-black text-center">
+      <h1 className="text-[40px] md:text-8xl font-formula-black text-center">
         POINT TABLE
       </h1>
       <Leaderboard />
