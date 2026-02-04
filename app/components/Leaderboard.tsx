@@ -120,13 +120,13 @@ export default function Leaderboard() {
           <div className="flex flex-col gap-4 text-white z-5 font-formula-bold text-xl">
             <div>{team.name}</div>
             <div className="flex gap-4">
-              <div className="flex items-center gap-2">
-                <span>=</span>
+              <div className="flex items-center gap-1">
+                <span className="scale-x-150 font-poppins font-light">=</span>
                 <span className="text-[15px] text-neutral-200">
                   {index + 1}
                 </span>
               </div>
-              <span className="font-bold text-2xl">{team.points + " pts"}</span>
+              <span className="font-bold text-xl">{team.points + " pts"}</span>
             </div>
           </div>
 
