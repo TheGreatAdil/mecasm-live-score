@@ -55,10 +55,10 @@ mecasm/
 
 | id | name            | points |
 |----|-----------------|--------|
-| 1  | Scuderia Ferrari| 15     |
-| 2  | Aston Martin    | 36     |
-| 3  | McLaren         | 31     |
-| 4  | Redbull Racing  | 56     |
+| 1  | Scuderia Ferrari| 51     |
+| 2  | Aston Martin    | 71     |
+| 3  | McLaren         | 63     |
+| 4  | Redbull Racing  | 97     |
 
 ## How It Works
 
